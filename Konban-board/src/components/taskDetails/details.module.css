@@ -1,0 +1,94 @@
+h2 {
+  font-size: 24px;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", sans-serif;
+  font-weight: 400;
+}
+p {
+  font-size: 18px;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", sans-serif;
+  font-weight: 400;
+}
+.back {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.back img {
+  width: 20px;
+}
+.detailsWrapper {
+  background-color: #0079BF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container {
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 1180px;
+  max-height: 540px;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", sans-serif;
+  font-weight: 400;
+}
+.current {
+  margin: 40px;
+  max-width: 620px;
+  word-break: break-word;
+  min-height: 550px;
+}
+.current button {
+  border: none;
+  color: white;
+  background-color: #0079BF;
+  cursor: pointer;
+  font-size: 18px;
+  width: auto;
+  margin: 40px 0 40px 0;
+  border-radius: 5px;
+  padding: 10px 15px;
+  bottom: 0;
+  position: absolute;
+}
+.input {
+  border: 1px solid #EBECF0;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  word-break: break-word;
+  min-width: 220px;
+}
+.save {
+  border: none;
+  color: white;
+  background-color: #0079BF;
+  cursor: pointer;
+  font-size: 18px;
+  width: 85px;
+  margin: 40px 0 40px 0;
+  border-radius: 5px;
+  padding: 5px;
+  bottom: 0;
+  position: absolute;
+}
+.form {
+  margin: 40px;
+  min-height: 550px;
+  word-break: break-word;
+}
+.textarea {
+  border: 1px solid #EBECF0;
+  border-radius: 5px;
+  font-size: 18px;
+  word-break: break-word;
+}
+.empty {
+  text-align: center;
+  padding: 10px 0 50px 0;
+  line-height: 3rem;
+}
+
+

@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}  
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", sans-serif;
+}
